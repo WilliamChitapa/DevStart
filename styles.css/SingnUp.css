@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(22, 27, 65);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.header-container h1 {
+  color: rgb(72, 156, 72);
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.header-container span a {
+  color: white;
+}
+
+.sign-up {
+  margin-top: 50px;
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.elements h1 {
+  color: white;
+  font: bold;
+  font-size: 50px;
+}
+
+.elements span {
+  padding-top: 20px;
+  color: gray;
+}
+
+#wrong {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputs {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 15px 60px;
+  border-radius: 8px;
+  background-color: rgb(22, 27, 65);
+  border: 1px solid gray;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .inputs input {
+    width: 80%;
+  }
+
+  .elements button {
+    width: 90%;
+  }
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px;
+  width: 410px;
+  background-color: rgb(72, 156, 72);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: medium;
+}
